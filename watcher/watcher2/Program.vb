@@ -5,7 +5,7 @@ Imports System.Security.Permissions
 
 Module Program
     Sub Main(args As String())
-
+        run()
     End Sub
 
     Private Sub Run()
@@ -36,8 +36,8 @@ Module Program
 
         ' Wait for the user to quit the program.
         Console.WriteLine("Press 'q' to quit the sample.")
-        While Chr(Console.Read()) <> "q"c
-        End While
+        'While Chr(Console.Read()) <> "q"c
+        'End While
     End Sub
 
     ' Define the event handlers.
