@@ -38,6 +38,9 @@ Module Program
         Console.WriteLine("Press 'q' to quit the sample.")
         'While Chr(Console.Read()) <> "q"c
         'End While
+        Do
+
+        Loop
     End Sub
 
     ' Define the event handlers.
