@@ -20,7 +20,7 @@ Module Program
 
         Dim watcher As New FileSystemWatcher()
         'watcher.Path = args(1)
-        watcher.Path = "/mnt/"
+        watcher.Path = "\\s-fs1\e$"
         watcher.NotifyFilter = (NotifyFilters.LastAccess Or NotifyFilters.LastWrite Or NotifyFilters.FileName Or NotifyFilters.DirectoryName)
 
 

@@ -21,7 +21,7 @@ Module Module1
 
         Dim watcher As New FileSystemWatcher()
         'watcher.Path = args(1)
-        watcher.Path = "c:\" '/mnt/
+        watcher.Path = "\\s-fs1\e$" '/mnt/
         watcher.NotifyFilter = (NotifyFilters.LastAccess Or NotifyFilters.LastWrite Or NotifyFilters.FileName Or NotifyFilters.DirectoryName)
 
 
